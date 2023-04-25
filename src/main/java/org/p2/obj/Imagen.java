@@ -16,6 +16,16 @@ public class Imagen {
     private int alto;
     private int[][] pixeles;
 
+    public int[][] getPixelesOriginales() {
+        return pixelesOriginales;
+    }
+
+    public void setPixelesOriginales(int[][] pixelesNuevos) {
+        this.pixelesOriginales = pixelesNuevos;
+    }
+
+    private int[][] pixelesOriginales;
+
     private PropertyChangeSupport observado;
     private static Logger logger = LogManager.getRootLogger();
 
@@ -23,6 +33,7 @@ public class Imagen {
         ancho = w;
         alto = h;
         pixeles = new int[w][h];
+        pixelesOriginales = new int[w][h];
         observado = new PropertyChangeSupport(this);
         logger.info("Se crea una imagen vacia de " + w + "x" + h);
     }
@@ -62,10 +73,12 @@ public class Imagen {
         ancho = bi.getWidth();
         alto = bi.getHeight();
 
+        pixelesOriginales = new int[ancho][alto];
         pixeles = new int[ancho][alto];
 
         for (int i = 0; i < ancho; i++) {
             for (int j = 0; j < alto; j++) {
+                pixelesOriginales[i][j] = bi.getRGB(i,j);
                 pixeles[i][j] = bi.getRGB(i,j);
             }
         }
@@ -79,8 +92,5 @@ public class Imagen {
 
     public void cambiosImagen() {
         observado.firePropertyChange("IMAGEN", false, true);
-    }
-    public int getPixel(int i, int j) {
-        return pixeles[i][j];
     }
 }

@@ -13,6 +13,7 @@ import org.p2.obj.filtros.colores.Verdes;
 import org.p2.obj.filtros.espejo.Horizontal;
 import org.p2.obj.filtros.espejo.Vertical;
 import org.p2.obj.filtros.otro.Bandera;
+import org.p2.obj.filtros.otro.Reset;
 
 import javax.swing.*;
 import java.awt.*;
@@ -56,6 +57,14 @@ public class ImagenFrame extends JFrame{
         bar.add(menu);
 
         menu = new JMenu("Imagen");
+        item = new JMenuItem("Reset");
+        item.addActionListener(e -> {
+            logger.info("El usuario convierte la imagen a escala de verdes");
+            ComandoFiltro cmd = new Reset(modelo);
+            cmd.ejecutar();
+        });
+
+        menu.add(item);
         item = new JMenuItem("Gris");
         item.addActionListener(e -> {
             logger.info("El usuario convierte la imagen a escala de grises");

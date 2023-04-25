@@ -28,6 +28,8 @@ public class FloydSteinberg extends ComandoFiltro {
             pixels[x + 1][y + 1] := pixels[x + 1][y + 1] + quant_error × 1 / 16
 
             find_closest_palette_color(oldpixel) = round(oldpixel / 255)
+
+            https://en.wikipedia.org/wiki/Floyd–Steinberg_dithering
             */
         ComandoFiltro grises = new Grises(imagenBase);
         grises.ejecutar();
