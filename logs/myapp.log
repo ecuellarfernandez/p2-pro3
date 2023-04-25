@@ -1176,3 +1176,25 @@ java.lang.Exception: Ocurrió un error
 2023-04-24 23:15:05,313 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de verdes
 2023-04-24 23:15:06,062 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de grises
 2023-04-24 23:15:06,601 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de verdes
+2023-04-24 23:16:28,954 INFO  [main] Se crea una imagen vacia de 600x400
+2023-04-24 23:16:30,131 INFO  [AWT-EventQueue-0] Abrimos el file chooser para escoger un archivo
+2023-04-24 23:16:32,037 INFO  [AWT-EventQueue-0] C:\Users\erick\OneDrive\Documentos\gustavito.jpg
+2023-04-24 23:16:33,116 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de verdes
+2023-04-24 23:16:33,979 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de grises
+2023-04-24 23:16:34,968 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de verdes
+2023-04-24 23:16:36,093 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de rojos
+2023-04-24 23:16:37,188 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de verdes
+2023-04-24 23:18:56,653 INFO  [AWT-EventQueue-0] Abrimos el file chooser para escoger un archivo
+2023-04-24 23:18:59,305 INFO  [AWT-EventQueue-0] C:\Users\erick\OneDrive\Documentos\descarga.jpg
+2023-04-24 23:19:01,885 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de grises
+2023-04-24 23:19:02,820 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de verdes
+2023-04-24 23:19:03,801 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de rojos
+2023-04-24 23:19:05,408 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de verdes
+2023-04-24 23:19:06,569 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de azules
+2023-04-24 23:19:07,657 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de verdes
+2023-04-24 23:19:08,984 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a Horizontal
+2023-04-24 23:19:10,595 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a Sal y pimienta
+2023-04-24 23:19:11,879 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de verdes
+2023-04-24 23:19:13,169 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a Floyd Steinberg
+2023-04-24 23:19:19,750 INFO  [AWT-EventQueue-0] El usuario convierte la imagen en una bandera BOB
+2023-04-24 23:19:20,799 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de verdes
