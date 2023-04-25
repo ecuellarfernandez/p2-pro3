@@ -1198,3 +1198,4 @@ java.lang.Exception: Ocurrió un error
 2023-04-24 23:19:13,169 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a Floyd Steinberg
 2023-04-24 23:19:19,750 INFO  [AWT-EventQueue-0] El usuario convierte la imagen en una bandera BOB
 2023-04-24 23:19:20,799 INFO  [AWT-EventQueue-0] El usuario convierte la imagen a escala de verdes
+2023-04-24 23:32:23,637 INFO  [main] Se crea una imagen vacia de 600x400

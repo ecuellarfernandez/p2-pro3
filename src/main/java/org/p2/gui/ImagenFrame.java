@@ -53,7 +53,7 @@ public class ImagenFrame extends JFrame{
             logger.info("El usuario sale del programa");
             System.exit(0);
         });
-
+        menu.add(item);
         bar.add(menu);
 
         menu = new JMenu("Imagen");
